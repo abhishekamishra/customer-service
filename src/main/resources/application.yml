@@ -1,0 +1,13 @@
+spring:
+  name: customer-service
+  jpa:
+    database: POSTGRESQL
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/customer_service
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
